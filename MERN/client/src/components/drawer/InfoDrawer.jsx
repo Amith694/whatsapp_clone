@@ -31,7 +31,7 @@ const drawerStyle = {
     boxShadow: 'none'
 }
 
-const InfoDrawer = ({ open, setOpen}) => {
+const InfoDrawer = ({ open, setOpen}) => { //{ open: true, setOpen: function() } = props
 
     const handleClose = () => {
         setOpen(false);
